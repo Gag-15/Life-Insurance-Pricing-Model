@@ -12,6 +12,21 @@ Dynamic actuarial model for pricing and reserving of a term life product using m
 
 ---
 
+## Key Assumptions
+- Product Type: Level Term Insurance.
+- Mortality Basis: Standard mortality table applied without adjustments (no selection effects).
+- Interest Rate: Constant annual effective interest rate (base case 6%).
+- Premium Structure: Level annual premiums payable in advance throughout the policy term.
+- Benefit Structure: Sum Assured payable at the end of the year of death.
+- Expenses: Expenses are assumed to be constant over the years.
+- Commission: Level percentage of premium (no renewal escalation).
+- Inflation: Not modelled; all values expressed in nominal terms.
+- Lapses: Ignored (policy assumed to remain in force until death or maturity).
+- Bonuses: Not applicable (non-participating contract).
+
+
+---
+
 ## Features
 - Premium calculation (Equivalence Principle)
 - Prospective & Retrospective reserves
